@@ -1,9 +1,33 @@
-# Crud-operations
-Firstly, We define four functions to handle each of the CRUD operations: createContact, readContact, updateContact, and deleteContact.
-In this code, we define a "Contact" structure that represents a single contact with a name and phone number.We use a vector to store all the contacts.
-The "createContact" function prompts the user for a name and phone number and adds a new Contact object to the contacts vector.
-The "readContact" function prompts the user for a phone number and searches the contacts vector for a matching phone number. 
-If it finds a matching phone number, it displays the corresponding name. Otherwise, it displays an error message.
-The "updateContact" function prompts the user for a phone number and searches the contacts vector for a matching phone number. 
-The "deleteContact" function prompts the user for a phone number and searches the contacts vector for a matching phone number.
-If it finds a matching phone number, it removes the corresponding Contact object from the contacts vector
+# CRUD Operations
+
+This repository contains a simple implementation of CRUD (Create, Read, Update, Delete) operations in C++.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [File Structure](#file-structure)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+The project demonstrates basic CRUD operations using a contact management system. It defines a `Contact` structure to represent a single contact with a name and phone number, and uses a vector to store the contacts.
+
+## File Structure
+
+
+## Features
+
+- **Create**: Add new contacts.
+- **Read**: Search for contacts by phone number.
+- **Update**: Modify existing contacts.
+- **Delete**: Remove contacts.
+
+## Getting Started
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/20Vaibhavk/Crud-operations.git
